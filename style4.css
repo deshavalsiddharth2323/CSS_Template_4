@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#left{
+    position: relative;
+    width: 40%;
+    height: 100%;
+    /* background-color: pink; */
+}
+#nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+#navr a{
+    margin-right: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+#navr i{
+    color: royalblue;
+}
+#navr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#left #txtcenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#txtcenter h1{
+    font-size: 5rem;
+    font-weight: 600;
+}
+#txtcenter p{
+    opacity: .5;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#txtcenter a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;  
+    padding: 4px;
+}
+#right{
+    width: 60%;
+    height: 100%;
+    background-color: lightblue;
+}
+#rtop{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-color: black;
+}
+#rbottom{
+    width: 100%;
+    height: 50%;
+    background-image: url(https://images.unsplash.com/photo-1541658016709-82535e94bc69?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+        background-size: cover;
+}
+#rleft{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+#rright{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1611928237590-087afc90c6fd?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+@media (max-width:500px) {
+    
+}
